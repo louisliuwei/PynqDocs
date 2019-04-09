@@ -82,7 +82,12 @@ Micros SD卡内被划分为两个分区，本例中99.7MB大小的FAT分区挂�
 - 奇偶校验 None Parity
 - 流控制 No Flow Control
 
-
+<p align="center">
+<img src ="images/Chapter_01/SerialPort.PNG">
+</p>
+<p align = "center">
+<i></i>
+</p>
 
 ### 连接Web UI: Jupyter Notebook
 
@@ -134,4 +139,3 @@ Micros SD卡内被划分为两个分区，本例中99.7MB大小的FAT分区挂�
 
 
 
-   
