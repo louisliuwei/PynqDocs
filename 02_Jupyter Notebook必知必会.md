@@ -50,7 +50,7 @@ Notebook的下列特点使得它在可视化编程与展示、编写教程文档
 <i></i>
 </p>
 
-想要了解更多关于Jupyter的知识，可以通过chrome浏览器连接到板卡后打开getting_started目录的的notebooks动手操作。
+想要学习更多关于Jupyter的知识，可以通过chrome浏览器连接到板卡后打开getting_started目录的notebooks动手操作。
 <p align="center">
 <img src ="images/Chapter_02/Jupyter_Env.PNG">
 </p>
