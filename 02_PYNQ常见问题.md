@@ -3,11 +3,12 @@
 PYNQ是Python On Zynq的缩写，它是一个软件开发框架，指导硬件层、驱动层和应用层之间的接口设计，不是ISE、Vivado、SDSoC这样的IDE工具，更不是Zynq芯片的下一代芯片产品。
 
 <p align="center">
-<img src ="images/Chapter_02/framework.png">
+<img src ="images/Chapter_02/Framework.png">
 </p>
 <p align = "center">
 <i></i>
 </p>
+
 PYNQ框架的设计初衷是通过高层次的封装，将底层硬件FPGA实现细节与上层应用层的使用脱耦，对软件开发者来说，PYNQ框架已经提供了完整的访问FPGA资源的library，让上层应用开发者通过Python编程就可以调用FPGA模块，不需要懂Verilog/VHDL硬件编程就可以享受FPGA可并行计算、接口可方便扩展和可灵活配置带来的诸多好处。
 
 在在PYNQ框架下，ARM A9 CPU上运行的软件包括：
@@ -46,7 +47,7 @@ Pynq.io是PYNQ官方网站，上面有英文资源汇总。
 
 另外也欢迎关注PYNQ微信服务号，会不定期发布参考资料、PYNQ应用案例更新。
 <p align="center">
-<img src ="images/Chapter_02/pynq.png">
+<img src ="images/Chapter_02/PYNQ.png">
 </p>
 <p align = "center">
 <i></i>

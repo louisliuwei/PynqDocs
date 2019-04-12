@@ -83,11 +83,12 @@ Micros SD卡内被划分为两个分区，本例中99.7MB大小的FAT分区挂�
 - 流控制 No Flow Control
 
 <p align="center">
-<img src ="images/Chapter_01/SerialPort.PNG">
+<img src ="images/Chapter_01/SerialPort.png">
 </p>
 <p align = "center">
 <i></i>
 </p>
+
 
 ### 连接Web UI: Jupyter Notebook
 
@@ -105,11 +106,12 @@ Micros SD卡内被划分为两个分区，本例中99.7MB大小的FAT分区挂�
 打开Chrome浏览器输入 http://<PYNQ_IP>:9090 ，记住将<PYNQ_IP>替换为具体的IP，输入密码**xilinx**，即可进入到开发板上的Jupyter Notebook主页。推荐使用Chrome浏览器是因为Jupyter Notebook使用了许多最新需要浏览器支持的js框架。
 
 <p align="center">
-<img src ="images/Chapter_01/JupyterNotebook.PNG">
+<img src ="images/Chapter_01/JupyterNotebook.png">
 </p>
 <p align = "center">
 <i></i>
 </p>
+
 
 主页中展示的例子可以让我们快速上手PYNQ相关的操作，base文件夹和logictools文件夹与具体的Overlay应用相关（Overlay的概念后面会介绍），common文件夹中的是与具体Overlay不绑定的较为通用的例子。对新手来说，getting_started文件夹提供了了解PYNQ必知必会的几个例子，我们也建议读者朋友先从这里入手。
 

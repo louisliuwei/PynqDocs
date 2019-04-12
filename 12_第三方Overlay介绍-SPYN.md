@@ -6,8 +6,6 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 
 # Overlay 简介
 
-​                                    
-
 <p align="center">
 <img src ="images/Chapter_12/01.png">
 </p>
@@ -261,16 +259,3 @@ current_Ib = np.array(Ib) * 0.00039
  xlnk.xlnk_reset()
  motor.stop()
   ```
-
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```

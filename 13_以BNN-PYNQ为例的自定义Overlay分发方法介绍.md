@@ -2,9 +2,12 @@
 
 Python 有非常丰富的第三方库可以使用，很多PYNQ开发者也会在 Github 上提交自己的适用于PYNQ的 Python 包。将一个完成的FPGA工程转换为PYNQ第三方包会方便我们进行PYNQ的开发。这个过程主要包括两个步骤：1.通过已经在PYNQ里的APIs对FPGA部分进行驱动的编写。2.将编写好的驱动做成Python库并且进行打包分发。
 
-​             ![](images\Chapter_13\01.png)   
-
-​                                                  
+<p align="center">
+<img src ="images\Chapter_13\01.png">
+</p>
+<p align = "center">
+<i></i>
+</p>
 
 从PYNQ框架中可以看到，对于FPGA Bitstreams中的内容，PYNQ有overlays方法对于Bitstream进行类似Vivado中download Bitstream的行为。对于FPGA中其余部分，比如User designs里的内容，可以将它们作为PYNQ的IPs，通过上层的API（如GPIO、MMIO等）对它进行自定义的驱动编写。或者通过其他方法（如：通过python调用C来实现已经在HLS中实现的算法等）。
 
@@ -202,28 +205,3 @@ sudo pip3 install   git+https://github.com/Xilinx/BNN-PYNQ.git (on PYNQ v2.3)
  ```javascipt
    sudo pip3 install -e . (on PYNQ v2.3)   
  ```
-​                                   
-
-
-
-|      |      |
-| ---- | ---- |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-
-
-
-
-  ```
-
-  ```
