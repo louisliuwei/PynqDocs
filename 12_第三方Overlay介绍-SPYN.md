@@ -1,8 +1,10 @@
-### IIoT-SPYN
+# IIoT-SPYN
 
 IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通过使用IIoT-SPYN控制、监视、捕获数据、可视化和分析汽车工业信息。
 
-## 1.1.   Overlay 简介
+
+
+# Overlay 简介
 
 ​                                    
 
@@ -12,10 +14,6 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 <p align = "center">
 <i></i>
 </p>
-
-
-                          图5-1          工程项目示意图。
-
 上图为工程项目示意图。通过软硬件划分，在PS端中负责Linux和通信，而PL端负责实时控制部分。在PYNQ中加载bit时，PL端的控制部分将以IP核形式呈现。通过Python，对IP核的参数配置来实现控制。
 
 
@@ -28,7 +26,7 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 </p>  
 
 
-图5-2          此项目中采用的FOC算法示意图，包括Clarke变换、Park变换、PWM编码器、PI控制器、电流采样等
+此项目中采用的FOC算法示意图，包括Clarke变换、Park变换、PWM编码器、PI控制器、电流采样等
 
 
 
@@ -41,7 +39,7 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 
 
 
-图5-3          FOC算法模块的Vivado Block Design，可以观察到所有的算法模块都是通过Vivado HLS生成的。
+FOC算法模块的Vivado Block Design，可以观察到所有的算法模块都是通过Vivado HLS生成的。
 
  
 
@@ -49,35 +47,30 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 
  
 
-## 1.2.   如何将IIoT-SPYN安装到PYNQ-Z2 image2.3上
+# 如何将IIoT-SPYN安装到PYNQ-Z2 image2.3上
 
 - 方法1（在PYNQ可以连接网络的情况下）：
 
 
-在Jupyter界面中new选项里选择新建一个终端
+  在Jupyter界面中new选项里选择新建一个终端,在PYNQ板卡能连接网络的情况下，在终端输入：
 
-在PYNQ板卡能连接网络的情况下，在终端输入：
 ```javascript
-   sudo pip3 install --upgrade   git+https://github.com/Xilinx/IIoT-SPYN.git   
+	sudo pip3 install --upgrade   git+https://github.com/Xilinx/IIoT-SPYN.git   
 ```
 
 
--  方法2（在PYNQ无法连接网络的情况下）：
+- 方法2（在PYNQ无法连接网络的情况下）：
 
 
-下载IIoT-SPYN的zip压缩包
+  下载IIoT-SPYN的zip压缩包，上传压缩包到PYNQ板卡，在终端中unzip上传的压缩包，移动到解压的目录下然后采用pip安装
 
-上传压缩包到PYNQ板卡
-
-​       在终端中unzip上传的压缩包
-
-​       移动到解压的目录下然后采用pip安装
 ```javascipt
-   sudo pip3 install -e .   
+	sudo pip3 install -e .   
+	
 ```
 
 
-## 1.3.   Overlay API接口介绍
+# Overlay API接口介绍
 
 在此工程中，通过Motor_Controller类来实例化一个对象进行对于电机的控制，Motor_Controller类的主要属性包括：
 
@@ -104,7 +97,7 @@ IIoT-SPYN是一个开源项目，通过IIoT-EDDP和PYNQ器件，用户可以通�
 
 
 
-## 1.4.   应用案例介绍
+# 应用案例介绍
 
 在IIoT-SPYN的notebooks目录下包含了两个在此Overlay上的应用案例。在spyn.ipynb中介绍了通过IIoT-SPYN和EDPS板卡控制一个三相交流电动机，此案例中连接到PYNQ板卡上的是Trenz电机TEC0053。下面基于此应用案例的程序进行简要介绍：
 
