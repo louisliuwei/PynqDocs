@@ -13,7 +13,7 @@ PYNQ作为一个全新的框架，很多同学和工程师都还比较陌生，�
 ------
 
 - PYNQ-Z2开发板上手
-- PYNQ框架介绍
+- PYNQ常见问题
 - Jupyter Notebook必知必会
 - PYNQ Overlay介绍
 - BaseOverlay介绍
