@@ -1,33 +1,24 @@
-<!--
- * @Author: Wei Liu
- * @GitHub: louisliuwei
- * @Email: louis.liuwei@hotmail.com
- * @Date: 2019-11-28 10:55:30
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2019-11-28 10:56:30
- * @Description: 
- -->
-# Summary
+# Table of contents
 
-* [Introduction](README.md)
-* [Pynq 中文资料]
-    * [01_PYNQ-Z2开发板上手](01_PYNQ-Z2开发板上手.md)
-    * [02_PYNQ常见问题](02_PYNQ常见问题.md)
-    * [03_Jupyter Notebook必知必会](03_Jupyter Notebook必知必会.md)
-    * [04_PYNQ Overlay介绍](04_PYNQ Overlay介绍.md)
-    * [05_BaseOverlay介绍](05_BaseOverlay介绍.md)
-    * [06_Logictools Overlay](06_Logictools Overlay.md)
-    * [07-01_PYNQ Library详解 - PS与PL接口](07-01_PYNQ Library详解 - PS与PL接口.md)
-    * [07-02_PYNQ Library详解 - IP访问](07-02_PYNQ Library详解 - IP访问.md)
-    * [07-03_PYNQ Library详解 - PS and PL control](07-03_PYNQ Library详解 - PS and PL control.md)
-    * [07-04_PYNQ Library详解 - IOP](07-04_PYNQ Library详解 - IOP.md)
-    * [07-05_PYNQ Library详解 - Pynq MicroBlaze](07-05_PYNQ Library详解 - Pynq MicroBlaze.md)
-    * [08_PYNQ快速上手实验介绍](08_PYNQ快速上手实验介绍.md)
-    * [09_Overlay设计方法学](09_Overlay设计方法学.md)
-    * [10_自定义Overlay设计流程](10_自定义Overlay设计流程.md)
-    * [11-1_基于HLS的加速器Overlay设计实例 - 快速生成硬件IP](11-1_基于HLS的加速器Overlay设计实例 - 快速生成硬件IP.md)
-    * [11-2_基于HLS的加速器Overlay设计实例 - Notebook中调用硬件IP](11-2_基于HLS的加速器Overlay设计实例 - Notebook中调用硬件IP.md)
-    * [12_第三方Overlay介绍-SPYN](12_第三方Overlay介绍-SPYN.md)
-    * [13_以BNN-PYNQ为例的自定义Overlay分发方法介绍](13_以BNN-PYNQ为例的自定义Overlay分发方法介绍.md)
-    * [14_Python基础](14_Python基础.md)
+* [介绍](README.md)
+* [\[Pynq 中文资料\]](pynq-zhong-wen-zi-liao/README.md)
+  * [01\_PYNQ-Z2开发板上手](pynq-zhong-wen-zi-liao/01pynqz2-kai-fa-ban-shang-shou.md)
+  * [02\_PYNQ常见问题](pynq-zhong-wen-zi-liao/02pynq-chang-jian-wen-ti.md)
+  * [03\_Jupyter Notebook必知必会](pynq-zhong-wen-zi-liao/03jupyter-notebook-bi-zhi-bi-hui.md)
+  * [04\_PYNQ Overlay介绍](pynq-zhong-wen-zi-liao/04pynq-overlay-jie-shao.md)
+  * [05\_BaseOverlay介绍](pynq-zhong-wen-zi-liao/05baseoverlay-jie-shao.md)
+  * [06\_Logictools Overlay](pynq-zhong-wen-zi-liao/06_logictools-overlay.md)
+  * [07-01\_PYNQ Library详解 - PS与PL接口](pynq-zhong-wen-zi-liao/0701pynq-library-xiang-jie-ps-yu-pl-jie-kou.md)
+  * [07-02\_PYNQ Library详解 - IP访问](pynq-zhong-wen-zi-liao/0702pynq-library-xiang-jie-ip-fang-wen.md)
+  * [07-03\_PYNQ Library详解 - PS and PL control](pynq-zhong-wen-zi-liao/0703pynq-library-xiang-jie-ps-and-pl-control.md)
+  * [07-04\_PYNQ Library详解 - IOP](pynq-zhong-wen-zi-liao/0704pynq-library-xiang-jie-iop.md)
+  * [07-05\_PYNQ Library详解 - Pynq MicroBlaze](pynq-zhong-wen-zi-liao/0705pynq-library-xiang-jie-pynq-microblaze.md)
+  * [08\_PYNQ快速上手实验介绍](pynq-zhong-wen-zi-liao/08pynq-kuai-su-shang-shou-shi-yan-jie-shao.md)
+  * [09\_Overlay设计方法学](pynq-zhong-wen-zi-liao/09overlay-she-ji-fang-fa-xue.md)
+  * [10\_自定义Overlay设计流程](pynq-zhong-wen-zi-liao/10-zi-ding-yi-overlay-she-ji-liu-cheng.md)
+  * [11-1\_基于HLS的加速器Overlay设计实例 - 快速生成硬件IP](pynq-zhong-wen-zi-liao/111-ji-yu-hls-de-jia-su-qi-overlay-she-ji-shi-li-kuai-su-sheng-cheng-ying-jian-ip.md)
+  * [11-2\_基于HLS的加速器Overlay设计实例 - Notebook中调用硬件IP](pynq-zhong-wen-zi-liao/112-ji-yu-hls-de-jia-su-qi-overlay-she-ji-shi-li-notebook-zhong-tiao-yong-ying-jian-ip.md)
+  * [12\_第三方Overlay介绍-SPYN](pynq-zhong-wen-zi-liao/12-di-san-fang-overlay-jie-shao-spyn.md)
+  * [13\_以BNN-PYNQ为例的自定义Overlay分发方法介绍](pynq-zhong-wen-zi-liao/13-yi-bnnpynq-wei-li-de-zi-ding-yi-overlay-fen-fa-fang-fa-jie-shao.md)
+  * [14\_Python基础](pynq-zhong-wen-zi-liao/14python-ji-chu.md)
 
