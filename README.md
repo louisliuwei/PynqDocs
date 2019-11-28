@@ -8,7 +8,6 @@ Xilinx作为芯片生产商，正在不断地推出各种隐藏底层硬件细�
 
 PYNQ作为一个全新的框架，很多同学和工程师都还比较陌生，中文资料相对也比较欠缺，基于此，我们计划逐渐推出更多的中文资料，希望能帮助大家熟悉PYNQ框架。
 
-<<<<<<< HEAD
 [Gitbook链接](https://pynqdocs.gitbook.io/pynq-tutorial/)
 
 # 内容列表
